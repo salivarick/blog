@@ -1,4 +1,5 @@
 FROM node:12.14.0-alpine
+LABEL version="0.0.1"
 
 COPY . /app
 WORKDIR /app
